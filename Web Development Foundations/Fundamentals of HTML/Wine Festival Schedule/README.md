@@ -1,1 +1,1 @@
-Learned how to structure HTML documents and additional HTML elements. Utilized structuring tags such as '<div>', '<header>', and '<body>' as long with different '<h>' tags.
+Learned how to structure HTML documents and additional HTML elements. Utilized structuring tags such as &lt;div&gt;&lt;/div&gt;, &lt;header&gt;&lt;/header&gt;, and &lt;body&gt;&lt;/body&gt; as long with different &lt;h&gt;&lt;/h&gt; tags.
