@@ -1,0 +1,63 @@
+a.nav-link{
+  color: #2176FF;
+  font-family: 'Amatic SC',sans-serif;
+  font-size: 34px;
+  padding: 0px 60px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.nav-link{
+  
+  text-decoration: none;
+}
+
+a.nav-link:hover{
+  text-decoration: none;
+  color: gray;
+}
+.btn:hover{
+  text-decoration: none;
+  background-color: #fff;
+  color: #2176FF;
+  transition: color .1s ease-in, background-color .1s ease-in;
+}
+.btn:active{
+  font-size: 24px;
+  box-shadow: 0px 0px;
+  transition: font-size .1s ease-in-out;
+  transition: font-size .1s ease-out;
+}
+.btn{
+  color: white;
+  background-color: #343b39;
+  text-decoration: underline;
+  font-size: 28px;
+  font-family: 'Amatic SC',sans-serif;
+  border: solid 1px gray;
+  border-radius: 10px;
+  box-shadow: 0px 4px; 
+  padding: 10px;
+  cursor: pointer;
+}
+
+.activity:hover{
+  text-decoration: underline #2176FF;
+  color: #2176FF;
+  background-color: white;
+  box-shadow: 0px 0px 6px 6px #2176FF;
+  transition: color .2s ease-in, background-color .2s ease-in;
+}
+
+.activity:active{
+  font-size: 40px
+  transition: font-size .1s;
+}
+
+.activity{
+  cursor: pointer;
+  text-decoration: underline;
+  box-shadow: 3px 3px black;
+}
