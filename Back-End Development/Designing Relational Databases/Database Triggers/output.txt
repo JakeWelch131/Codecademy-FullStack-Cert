@@ -1,0 +1,25 @@
+SET
+customer_id|first_name|last_name|email_address|home_phone|city|state_name|years_old
+1|Edward|Lewis|Edward.Lewis@example.com|202-555-0264|Pittsburgh|Pennsylvania|82
+2|Frances|Campbell|Frances.Campbell@example.com|202-555-0073|North Las Vegas|Nevada|10
+3|Dennis|Hall|Dennis.Hall@example.com|202-555-0424|Chula Vista|California|21
+(3 rows)
+changed_by|time_changed|change_type
+(0 rows)
+CREATE TRIGGER
+UPDATE 1
+CREATE TRIGGER
+INSERT 0 1
+CREATE TRIGGER
+UPDATE 1
+UPDATE 1
+customer_id|first_name|last_name|email_address|home_phone|city|state_name|years_old
+1|eddy|Lewis|fred|202-555-0264|Pittsburgh|Pennsylvania|13
+2|Frances|Campbell|Frances.Campbell@example.com|202-555-0073|North Las Vegas|Nevada|16
+3|Dennis|Hall|Dennis.Hall@example.com|202-555-0424|Chula Vista|California|21
+4|Jeffrey|Cook|Jeffrey.Cook@example.com|202-555-0398|Jersey city|New Jersey|66
+(4 rows)
+changed_by|time_changed|change_type
+ccuser|2024-07-05 23:32:00|INSERT
+ccuser|2024-07-05 23:32:00|UPDATE
+(2 rows)
